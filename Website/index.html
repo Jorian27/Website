@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<META content="text/html; charset=utf-8" http-equiv="Content-type" />
+	<LINK href="ProjectWebsite.css" rel="stylesheet" type="text/css" />
+	<TITLE>Colicss Website</TITLE>
+</head>
+
+<body>
+<div id="header">
+		
+
+	<div id="nav">
+		
+		<div id="Social"><A href="https://twitter.com/" target="blank_"><IMG src="Images/twitter.png" alt="twitter"  width="30" height="30" /></A>
+		<A href="https://nl-nl.facebook.com/" target="blank_"><IMG src="Images/facebook1.png" alt="twitter"  width="30" height="30" /></A>
+		<A href="https://www.instagram.com/" target="blank_"><IMG src="Images/instagram.png" alt="twitter"  width="30" height="30" /></A></div>
+	
+	<ul>
+		
+		<div id="menubalk"><li><a href="index.html" >Home</a></li>
+		<li><a href="ProjectContact.html">Contact</a></li>
+            <li><a href="klantenpagina.html">Klanten</a></li>
+             <div class="dropdown">
+                 <li onclick="myFunction()" class="dropbtn">Informatie </li>
+                 <div id="myDropdown" class="dropdown-content">
+                     <a href="Algemeneinformatie.html">Algemeen</a>
+                     <a href="Hostinginformatie.html">Hosting</a>
+                     <a href="cloudinformatie.html">Cloud</a>
+                 </div>
+                </div>
+
+
+            <li><a href="klantenpagina.html">Social Media</a></li>
+                        
+	
+		
+	
+	</ul>
+        <script>
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+	<h1>Colicss</h1>
+	
+	</div>
+</div>
+
+	
+	
+
+<div class="content section">
+  <img class="Slider slides" id="fotos" src="Images/netwerk.jpg">
+  <img class="Slider slides" id="fotos" src="Images/server2.jpg">
+  <img class="Slider slides" id="fotos" src="Images/servers.jpg">
+  <img class="Slider slides" id="fotos" src="Images/serverfoto.jpg">
+</div>
+
+<script>
+var fotos = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("Slider");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "";  
+    }
+    fotos++;
+    if (fotos > x.length) {fotos = 1}    
+    x[fotos-1].style.display = "block";  
+    setTimeout(carousel, 7000); 
+}
+</script>
+    
+	</div>
+	
+	
+	
+	
+	<div id="footer">
+		<h3> © Copyright by Colicss</h3>
+	</div>
+	<div class="sitemap1">
+	<p><b>Social Media</b></p>
+		<dl>
+			<center><dt><a href="https://nl-nl.facebook.com/" target="blank_" >Facebook</dt></a></center>
+			<center><dt><a href="https://twitter.com/" target="blank_" target="blank_" >Twitter</dt></a></center>
+			<center><dt><a href="https://www.instagram.com/" target="blank_" >Instagram</dt></a></center>
+			<center><dt><a href="" >Link</dt></a></center>
+		</dl>
+		
+		
+	
+		
+
+	</div>
+	<div class="sitemap2">
+	<p><b>Sitemap</b></p>
+		<dl>
+			<dt><a href="" >Link</dt></a>
+			<dt><a href="" >Link</dt></a>
+			<dt><a href="" >Link</dt></a>
+			<dt><a href="" >Link</dt></a>
+		</dl>
+	
+		
+	</div>
+	<div class="sitemap3">
+	<p><b>Contact</b></p>
+		<dl>
+            <dt>Het bedrijf Colicss is gevestigd in Slagharen</dt>
+            <br>
+            <dt>Adress: Herenstraat 24 7776 AG, Slagharen</dt>
+            <br>
+            <dt>Telefoon nummer: 06-124124</dt>
+            <br>
+            <dt>Email: Colicss@outlook.com</dt>
+			
+		</dl>
+	</div>
+
+</body>
+</html>

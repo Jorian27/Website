@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<META content="text/html; charset=utf-8" http-equiv="Content-type" />
+	<LINK href="Algemeneinformatie.css" rel="stylesheet" type="text/css" />
+	<TITLE>Colicss Website</TITLE>
+</head>
+<body>
+<div id="header">
+		
+
+	<div id="nav">
+
+
+		<div id="twitter"><A href="https://twitter.com/" target="blank_"><IMG src="Images/twitter.png" alt="twitter"  width="30" height="30" /></A>
+		<A href="https://nl-nl.facebook.com/" target="blank_"><IMG src="Images/facebook1.png" alt="twitter"  width="30" height="30" /></A>
+		<A href="https://www.instagram.com/" target="blank_"><IMG src="Images/instagram.png" alt="twitter"  width="30" height="30" /></A></div>
+	<div id="logo"><h1>Colicss</h1></div>
+	<ul>
+		
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="ProjectContact.html">Contact</a></li>
+            <li><a href="klantenpagina.html">Klanten</a></li>
+        <div class="dropdown">
+                 <li onclick="myFunction()" class="dropbtn">Informatie </li>
+                 <div id="myDropdown" class="dropdown-content">
+                     <a href="Algemeneinformatie.html">Algemeen</a>
+                     <a href="Hostinginformatie.html">Hosting</a>
+                     <a href="cloudinformatie.html">Cloud</a>
+                 </div>
+                </div>
+
+            <li><a href="klantenpagina.html">Social Media</a></li>
+           
+     <script>
+
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+        
+	</div>
+	<img id="natuur" src="Images/hosting.jpg"/>
+        
+   <div class="sitemap2">
+	<h2>Informatie</h2>
+    <p>Colicss is een innovatief en vernieuwend bedrijf uit Slagharen dat zich vooral bezig houdt met hosting en sinds kort ook de Cloud. Het bedrijf gaat onder leiding van Wilco Beltman al een poos flink voor de wind en zijn binnen twee jaar gegroeid van een eenmanszaak naar een bedrijf met zes man personeel. </p>
+       
+	
+		
+	
+		
+	</div>
+	<div class="sitemap3">
+	<h2>Informatie</h2>
+    <p>Onlangs hebben ze nog een prijs gewonnen voor beste innovatie binnen de hosting door samen te werken met het Alfa-college. In dit project hebben studenten van het Alfa-college een hostingomgeving opgezet met daarop een testwebsite. Het panel van deze prijs vond de samenwerking zo gaaf, dat ze de prijs beste innovatie hebben gewonnen.</p>
+		
+	</div>
+</body>
+</html>
