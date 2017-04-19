@@ -1,0 +1,112 @@
+body{
+	width:90%;
+	margin: 0 auto;
+	text-align:center;
+    background:url(Images/background3.jpg) no-repeat;
+    background-size:cover;
+    
+    
+	}
+
+#content {	
+overflow: auto;
+margin:0;
+padding:0;
+}
+
+#nav{
+
+    padding-top:1%;
+    padding-bottom:1%;
+    background-color:#0061A9;
+    width:100%;
+
+    
+}
+
+h1{
+    float:left;
+    color:white;
+    font-size:50px;
+    margin-top:0;
+    margin-left:1%;
+    width:12%;
+    text-transform: capitalize;
+}
+
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #0061A9;
+    margin-left:;
+    width:60%;
+    margin-left:20%;
+    text-transform:uppercase;
+    
+    
+   
+}
+
+li {
+    float: left;
+    
+   
+    
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+
+li a:hover {
+    background-color: white;
+    color:black;
+    
+}
+
+#social{
+    float:right;
+    margin-right:1%;
+    margin-top:1%;
+}
+
+
+
+#koen img{
+    float:left;
+    margin-top:2%;
+}
+
+#koentekst p{
+    color:white;
+    width:40%;
+    float:right;
+    margin-right:20%;
+    margin-top:10%;
+}
+  
+#odin img{
+    margin-top:2%;
+    margin-right:50%;
+    
+} 
+
+#odintekst {
+    color:white;
+    width:40%;
+    margin-left:45%;
+    margin-bottom:;
+    
+}

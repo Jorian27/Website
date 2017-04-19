@@ -1,0 +1,188 @@
+body{
+	width:90%;
+	margin: 0 auto;
+	text-align:center;
+    background:url(Images/background3.jpg) no-repeat;
+    background-size:cover;
+    
+	}
+
+#content {	
+overflow: auto;
+margin:0;
+padding:0;
+}
+
+#nav{
+
+    padding-top:1%;
+    padding-bottom:1%;
+    background-color:#0061A9;
+    width:100%;
+    
+
+    
+}
+
+h1{
+    float:left;
+    color:white;
+    font-size:50px;
+    margin-top:0;
+    margin-left:1%;
+    width:12%;
+    text-transform: capitalize;
+}
+
+
+
+
+.column1{
+	width: 45%;
+    height:10%;
+	float:right;
+    margin-bottom:20px;
+    margin-right:90px;
+    color:white;
+}
+
+.column2{
+	width: 45%;
+    margin-left:120px;
+	float:left;
+    margin-bottom:20px;
+    
+}
+
+
+
+
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #0061A9;
+    margin-left:;
+    width:60%;
+    margin-left:20%;
+    text-transform:uppercase;
+    
+    
+   
+}
+
+li {
+    float: left;
+    
+   
+    
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+
+li a:hover {
+    background-color: white;
+    color:black;
+    
+}
+
+#social{
+    float:right;
+    margin-right:1%;
+    margin-top:1%;
+}
+
+
+
+
+.Slider {
+    display:none;
+    
+}
+
+#fotos{
+    width:100%;
+    height:500px;
+    
+    
+   
+}
+
+.slides{
+    animation:fading 7s infinite}
+    @keyframes fading{0%{
+    opacity:0}50%{
+    opacity:1}100%{
+    opacity:0}
+}
+
+#footer{
+	background-color:#0061A9;
+	text-align:center;
+	text-transform:uppercase;
+	font-weight: bold;
+	width:100%;
+	height:10%;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-top:2%;
+    color:white;
+    
+
+
+	
+}
+
+.sitemap1{
+	background:#0061A9;
+	width:30%;
+	height:200px;
+	margin-top:10px;
+	float:left;
+    margin-left:4%;
+    color:white;
+
+}
+
+.sitemap2{
+	background:#0061A9;
+	width:30%;
+	height:200px;
+    float:left;
+    margin-top:10px;
+    margin-left:1%;
+    color:white;
+}
+
+.sitemap3{
+	background:#0061A9;
+	width:30%;
+	height:200px;
+	margin-top:10px;
+    float:left;
+    margin-left:1%;
+    color:white;
+}
+
+dt a:hover{
+	opacity:0.4;
+	color:red;
+}
+
+dt a{
+    color:White;
+    text-transform: capitalize;
+}
