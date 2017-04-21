@@ -30,6 +30,23 @@
         <h2>Cloud Pakket Geel</h2>
         <img src="Images/cloud2.png" width="50%"/>
         <p>Pakket Geel: 10 GB opslag (4 euro per maand)</p>
+        
+    <select id="keuzes" onchange="price()">
+            <option value="1"> 1 maand € 4,00,-</option>
+            <option value="2"> 1 jaar € 48,00,-</option>
+            <option value="3"> 5 jaar € 240,-</option>
+        </select>
+        
+        <div id="prijs">
+        
+        </div>
+      <script>
+          function price();{
+            var x = document.getElementById("keuzes");
+              var y = x.selectedIndex;
+              document.getElementById("prijs").innerHTML = x.options[i].text;
+          }
+        </script>
         <button>Bestel</button>
     </div>
     
@@ -37,6 +54,23 @@
         <h2>Cloud Pakket Oranje</h2>
          <img src="Images/cloud.png" width="60%"/>
         <p>Pakket Oranje: 100 GB opslag (6 euro per maand)</p>
+        
+        <select id="keuzes" onchange="price()">
+            <option value="1"> 1 maand € 6,00,-</option>
+            <option value="2"> 1 jaar € 72,00,-</option>
+            <option value="3"> 5 jaar € 360,-</option>
+        </select>
+        
+        <div id="prijs">
+        
+        </div>
+      <script>
+          function price();{
+            var x = document.getElementById("keuzes");
+              var y = x.selectedIndex;
+              document.getElementById("prijs").innerHTML = x.options[i].text;
+          }
+        </script>
         <button>Bestel</button>
     </div>
     
@@ -44,6 +78,22 @@
         <h2>Cloud Pakket Groen</h2>
         <img src="Images/cloud3.png" width="63%"/>
         <p>Pakket Groen: 1 TB opslag (10 euro per maand)</p>
+        <select id="keuzes" onchange="price()">
+            <option value="1"> 1 maand € 10,00,-</option>
+            <option value="2"> 1 jaar € 120,-</option>
+            <option value="3"> 5 jaar € 600,-</option>
+        </select>
+        
+        <div id="prijs">
+        
+        </div>
+      <script>
+          function price();{
+            var x = document.getElementById("keuzes");
+              var y = x.selectedIndex;
+              document.getElementById("prijs").innerHTML = x.options[i].text;
+          }
+        </script>
         <button>Bestel</button>
     </div>
 
