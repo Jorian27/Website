@@ -149,7 +149,7 @@ li a:hover {
 .sitemap1{
 	background:#0061A9;
 	width:30%;
-	height:200px;
+	height:260px;
 	margin-top:10px;
 	float:left;
     margin-left:4%;
@@ -160,7 +160,7 @@ li a:hover {
 .sitemap2{
 	background:#0061A9;
 	width:30%;
-	height:200px;
+	height:290px;
     float:left;
     margin-top:10px;
     margin-left:1%;
@@ -170,7 +170,7 @@ li a:hover {
 .sitemap3{
 	background:#0061A9;
 	width:30%;
-	height:200px;
+	height:260px;
 	margin-top:10px;
     float:left;
     margin-left:1%;
@@ -185,4 +185,13 @@ dt a:hover{
 dt a{
     color:White;
     text-transform: capitalize;
+    font-size:20px;
+}
+
+
+#twitter{
+    width:30%;
+    float:right;
+    margin-right:3%;
+
 }

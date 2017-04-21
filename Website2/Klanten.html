@@ -21,12 +21,108 @@
 		<li><a href="Informatie.html">Informatie</a></li>
         <li><a href="Klanten.html">Klanten</a></li>
         <li><a href="Contact.html">Contact</a></li>
-        <li><a href="">Social Media</a></li>
+        
         </ul>
 	</div>
     </div>
 
-  
+
+<body>
+
+<div class="content section">
+  <div class="Slider slides" id="foto1"> <img src="Images/sterren.png" width="19%"/>
+      <h2>Geweldig!</h2>
+      
+      <p>Zeer tevreden over Colicss!! Website werkt altijd naar behoren, de prijs is goed en je krijgt altijd heel snel antwoord op vragen. Geweldige webhosting. had niet beter kunnen krijgen.
+        Super!!</p>
+    <p>~Koen Roosa</p>
+    </div>
     
+      <div class="Slider slides" id="foto2"><img src="Images/sterren1.png" width="19%"/> 
+           <h2>Zeer tevreden</h2>
+          
+        <p>Geweldige service, ben recentelijk over naar Colicss en ik ben er zeker blij mee. Ik heb zelf geen verstand van hosting, 
+            dus er werd mij aangeboden om op afstand alles in te laten stellen. vervolgens heeft de medewerker mij geholpen met het instellen zodat ik aan de slag kon. 
+            Bedankt voor de goede service en absoluut een aanrader!</p>
+    <p>~Ramon</p>
+    </div>
+    
+    
+      <div class="Slider slides" id="foto3"><img src="Images/sterren2.png" width="19%"/>
+           <h2>Fantastisch!</h2>
+          
+          <p>Colicss biedt een aantrekkelijk resellerpakket. De snelheid van websites en de functionaliteit binnen dat pakket is uitstekend. Als iets niet duidelijk is en contact met Colicss moet worden opgenomen, is de reactie snel, vriendelijk en zeer deskundig. Ik ben uiterst tevreden met Colicss als partner!</p>
+    <p>~Odin Juurlink</p>
+    </div>
+
+
+ 
+  <div class="Slider slides" id="foto4"><img src="Images/sterren.png" width="19%"/>
+       <h2>Top!</h2>
+      
+      <p>k ben zeer tevreden over Colicss.
+De support, die je op vele manieren kunt bereiken, werkt bijzonder snel. Men is zeer hulpvaardig en vriendelijk. Daar kunnen andere bedrijven nog wat van leren. 
+Meer dan uitstekend!</p>
+    
+    <p>~Mike Verschuur</p></div>
+
+</div>
+    </div>
+
+<script>
+var fotos = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("Slider");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "";  
+    }
+    fotos++;
+    if (fotos > x.length) {fotos = 1}    
+    x[fotos-1].style.display = "block";  
+    setTimeout(carousel,7000 ); 
+}
+</script>
+    
+    
+    <div id="server">
+    <img src="Images/server2.jpg" width="80%">
+        </div>
+    
+    <div id="footer">
+		<h3> © Copyright by Colicss</h3>
+	</div>
+	<div class="sitemap1">
+	<p><b>Social Media</b></p>
+		<dl>
+			<center><dt><a href="https://nl-nl.facebook.com/" target="blank_" >Facebook</dt></a></center>
+			<center><dt><a href="https://twitter.com/" target="blank_" target="blank_" >Twitter</dt></a></center>
+			<center><dt><a href="https://www.instagram.com/" target="blank_" >Instagram</dt></a></center>
+			<center><dt><a href="" >Link</dt></a></center>
+		</dl>
+		
+		
+	
+		
+
+	</div>
+        <div id="twitter">
+                        <a class="twitter-timeline"  href="https://twitter.com/hashtag/colicss" data-widget-id="854631366763438081">Tweets over #colicss</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          
+		
+	</div>
+	<div class="sitemap3">
+	<p><b>Contact</b></p>
+		<dl>
+            <dt>Het bedrijf Colicss is gevestigd in Slagharen</dt>
+            <dt>Adress: Herenstraat 24 7776 AG, Slagharen</dt>
+            <dt>Telefoon nummer: 06-124124</dt>
+            <dt>Email: Colicss@outlook.com</dt>
+			
+		</dl>
+	</div>
 </body>
 </html>

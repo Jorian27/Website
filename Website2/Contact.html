@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<META content="text/html; charset=utf-8" http-equiv="Content-type" />
+	<LINK href="Contact.css" rel="stylesheet" type="text/css" />
+	<TITLE>ColiCSS</TITLE>
+</head>
+<body>
+<div id="header">
+	<div id="nav">
+    <h1>Colicss</h1>
+    <div id="social">
+        <A href="https://twitter.com/" target="blank_"><IMG src="Images/twitter.png" alt="twitter"  width="30" height="30" /></A>
+		<A href="https://nl-nl.facebook.com/" target="blank_"><IMG src="Images/facebook1.png" alt="twitter"  width="30" height="30" /></A>
+		<A href="https://www.instagram.com/" target="blank_"><IMG src="Images/instagram.png" alt="twitter"  width="30" height="30" /></A>
+        </div>
+	<ul>
+        <li><a href="Index.html">Home</a></li>
+		<li><a href="Hosting.html">Hosting</a></li>
+		<li><a href="Cloud.html">Cloud</a></li>
+		<li><a href="Informatie.html">Informatie</a></li>
+        <li><a href="Klanten.html">Klanten</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+  
+        </ul>
+	</div>
+    </div>
+    
+
+<div class="container">  
+
+    <h4>ColiCSS Contact formulier</h4>
+    <form id="contact" name="myForm" action="#" onsubmit="return validatieForm();" method="post">
+    
+      <input placeholder="Uw naam:" type="text" tabindex="1">
+
+      <input id="email" placeholder="Uw E-mail Adres:" type="text"  >
+   
+      <input placeholder="Uw telefoonnummer:" type="tel" tabindex="3" >
+    
+      <input placeholder="Uw woonplaats:" >
+   
+      <textarea placeholder="Typ hier uw bericht..." tabindex="5" ></textarea>
+   
+      <button name="submit" formaction="#" type="submit">Verzenden</button>
+
+  </form>
+    
+<script>
+    function validatieForm() {
+        var email = document.forms["myForm"]["email"].value;
+        var atpos = email.indexOf("@");
+        var dotpos = email.lastIndexOf(".");
+            if (atpos<1 || dotpos<atpos+2) {
+                alert("Not a valid e-mail address");
+                return false;
+ }
+ }
+        
+    </script>
+ 
+  <div id="footer">
+		<h3> © Copyright by Colicss</h3>
+	</div>
+	<div class="sitemap1">
+	
+		
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2421.863082494959!2d6.556169461058971!3d52.62631832068577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c803f301228971%3A0x7c77a7ef1ccd9b37!2sHerenstraat+24%2C+7776+AJ+Slagharen!5e0!3m2!1snl!2snl!4v1492588188048" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	
+		
+
+	</div>
+	
+	<div class="sitemap3">
+	<p><b>Contact</b></p>
+		<dl>
+            <dt>Het bedrijf Colicss is gevestigd in Slagharen</dt>
+            <dt>Adress: Herenstraat 24 7776 AG, Slagharen</dt>
+            <dt>Telefoon nummer: 06-124124</dt>
+            <dt>Email: Colicss@outlook.com</dt>
+			
+		</dl>
+	</div>
+	
+</div>
+    
+    
+
+</body>
+    
+</html>

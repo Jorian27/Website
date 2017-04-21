@@ -84,29 +84,181 @@ li a:hover {
 
 
 
-#koen img{
-    float:left;
-    margin-top:2%;
+.Slider {
+    display:none;
+    border-radius: 20px 20px 20px 20px;
+    border: 4px solid white;
+    
 }
 
-#koentekst p{
-    color:white;
-    width:40%;
-    float:right;
-    margin-right:20%;
-    margin-top:10%;
-}
-  
-#odin img{
-    margin-top:2%;
-    margin-right:50%;
-    
+#foto1{
+        width:50%;
+    height:400px;
+    background:#1C7624;
+    margin-top:4%;
 } 
 
-#odintekst {
-    color:white;
-    width:40%;
-    margin-left:45%;
-    margin-bottom:;
+#foto2{
+        width:50%;
+    height:400px;
+    background:#1C7624;
+    margin-top:4%;
     
+}
+#foto3{
+    width:50%;
+    height:400px;
+    background:#1C7624;
+    margin-top:4%;
+    
+    
+   
+}
+
+#foto4{
+    width:50%;
+    height:400px;
+    background:#1C7624;
+    margin-top:4%;
+}
+
+.slides{
+    animation:fading 7s infinite}
+    @keyframes fading{0%{
+    opacity:0}50%{
+    opacity:1}100%{
+    opacity:0}
+}
+
+#footer{
+	background-color:#0061A9;
+	text-align:center;
+	text-transform:uppercase;
+	font-weight: bold;
+	width:100%;
+	height:10%;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-top:2%;
+    color:white;
+    
+	
+}
+
+p{
+    color:white;
+    margin-bottom:50px;
+    font-size: 20px;
+}
+
+
+#foto1 img{
+    margin-right:;
+    margin-top:300px;
+    width:30%;
+     
+    
+}
+
+#foto2 img{
+    margin-right:;
+    margin-top:300px;
+    width:30%;
+}
+
+#foto3 img{
+     margin-right:;
+    margin-top:300px;
+    width:30%;
+    
+}
+
+#foto4 img{
+   margin-right:;
+    margin-top:300px;
+    width:30%;
+}
+
+
+
+h2{
+width:40%;
+margin-left:30%;
+color:white;
+margin-top:-45%;
+font-size:30px;
+}
+
+
+#server{
+    margin-left:50%;
+    margin-top:-390px;
+}
+
+    
+#footer{
+	background-color:#0061A9;
+	text-align:center;
+	text-transform:uppercase;
+	font-weight: bold;
+	width:100%;
+	height:10%;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-top:10%;
+    color:white;
+    
+
+
+	
+}
+
+.sitemap1{
+	background:#0061A9;
+	width:30%;
+	height:260px;
+	margin-top:10px;
+	float:left;
+    margin-left:4%;
+    color:white;
+
+}
+
+.sitemap2{
+	background:#0061A9;
+	width:30%;
+	height:290px;
+    float:left;
+    margin-top:10px;
+    margin-left:1%;
+    color:white;
+}
+
+.sitemap3{
+	background:#0061A9;
+	width:30%;
+	height:260px;
+	margin-top:10px;
+    float:left;
+    margin-left:1%;
+    color:white;
+}
+
+dt a:hover{
+	opacity:0.4;
+	color:red;
+}
+
+dt a{
+    color:White;
+    text-transform: capitalize;
+    font-size:20px;
+}
+
+
+#twitter{
+    width:30%;
+    float:right;
+    margin-right:3%;
+
 }

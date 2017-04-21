@@ -91,7 +91,7 @@ li a:hover {
     background:#A93F07;
     color:white;
     width:25%;
-    height:350px;
+    height:450px;
     text-align: center;
     margin-top:2%;
     float:left;
@@ -104,7 +104,7 @@ li a:hover {
     background:#92A9A1;
     width:25%;
     color:white;
-    height:350px;
+    height:450px;
     text-align: center;
     margin-top:2%;
     margin-left:2%;
@@ -117,7 +117,7 @@ li a:hover {
     background:#F68E18;
     color:white;
     width:25%;
-    height:350px;
+    height:450px;
     text-align: center;
     margin-top:2%;
     margin-left:2%;
@@ -137,6 +137,7 @@ background:green;
 color:white;
 width:20%;
 height:10%;
+    margin-top:10%;
     
 }
 
@@ -154,14 +155,14 @@ button:hover{
 	height:10%;
     padding-top:5px;
     padding-bottom:5px;
-    margin-top:30%;
+    margin-top:40%;
     color:white;
 }
 
 .sitemap1{
 	background:#0061A9;
 	width:30%;
-	height:200px;
+	height:260px;
 	margin-top:10px;
 	float:left;
     margin-left:4%;
@@ -172,7 +173,7 @@ button:hover{
 .sitemap2{
 	background:#0061A9;
 	width:30%;
-	height:200px;
+	height:260px;
     float:left;
     margin-top:10px;
     margin-left:1%;
@@ -182,11 +183,30 @@ button:hover{
 .sitemap3{
 	background:#0061A9;
 	width:30%;
-	height:200px;
+	height:260px;
 	margin-top:10px;
     float:left;
     margin-left:1%;
     color:white;
+}
+
+dt a:hover{
+	opacity:0.4;
+	color:red;
+}
+
+dt a{
+    color:White;
+    text-transform: capitalize;
+    font-size:20px;
+}
+
+
+#twitter{
+    width:30%;
+    float:right;
+    margin-right:3%;
+
 }
 
 dt a:hover{
@@ -204,4 +224,13 @@ h2{
     padding-top:2%;
     padding-bottom:2%;
     margin-top:-1%;
+}
+
+input{
+
+    width:20%;
+}
+
+#totalPrice{
+    
 }

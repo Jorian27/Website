@@ -5,6 +5,7 @@ body{
     background:url(Images/background3.jpg) no-repeat;
     background-size:cover;
     
+    
 	}
 
 #content {	
@@ -37,17 +38,11 @@ h1{
 
 
 
-
-
-
-
-
-
 ul {
     list-style-type: none;
     margin: 0;
     overflow: hidden;
-    background-color:#0061A9;
+    background-color: #0061A9;
     margin-left:;
     width:60%;
     margin-left:20%;
@@ -87,56 +82,68 @@ li a:hover {
     margin-top:1%;
 }
 
-.artikel1{
-    background:#F6EB32;
-    width:25%;
-    height:350px;
-    text-align: center;
-    margin-top:2%;
-    float:left;
-    margin-left:-3%;
+
+
+
+
+}
+
+.container {
+	max-width:400px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+
+
+
+#contact {
+	padding:25px;
+	
+}
+
+ h4 {
+	color:white;
+	font-size: 28px;
+	
+}
+
+
+
+
+#contact input {
+	width:100%;
+	background:white;
+	margin:7px;
+	padding:10px;
+    margin-left:-10px;
+}
+
+
+
+#contact textarea {
+	height:100px;
+    width:100%;
+	border:1px solid grey;
+	background:white;
+	margin:7px;
+	padding:10px;
+       margin-left:-10px;
  
 }
 
-.artikel2{
-    background:#FF6B02;
-    width:25%;
-    height:350px;
-    text-align: center;
-    margin-top:2%;
-    margin-left:2%;
-    float:left;
-   
-}
-
-.artikel3{
-    background:#58F620;
-    width:25%;
-    height:350px;
-    text-align: center;
-    margin-top:2%;
-    margin-left:2%;
-    float:left;
+#contact button {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:green;
+	color:white;
+	margin-top:7px;
   
-    
-    }
-
-a{
-    text-decoration: none;
+	padding:10px;
+	font-size:15px;
 }
 
-button{
-background:green;    
-color:white;
-width:20%;
-height:10%;
-cursor:pointer;
-    
-}
-
-button:hover{
-    background:black;
-}
 #footer{
 	background-color:#0061A9;
 	text-align:center;
@@ -146,14 +153,13 @@ button:hover{
 	height:10%;
     padding-top:5px;
     padding-bottom:5px;
-    margin-top:30%;
     color:white;
 }
 
-.sitemap1{
+iframe{
 	background:#0061A9;
-	width:30%;
-	height:260px;
+	width:60%;
+	height:250px;
 	margin-top:10px;
 	float:left;
     margin-left:4%;
@@ -161,20 +167,11 @@ button:hover{
 
 }
 
-.sitemap2{
-	background:#0061A9;
-	width:30%;
-	height:260px;
-    float:left;
-    margin-top:10px;
-    margin-left:1%;
-    color:white;
-}
 
 .sitemap3{
 	background:#0061A9;
 	width:30%;
-	height:260px;
+	height:250px;
 	margin-top:10px;
     float:left;
     margin-left:1%;
@@ -199,9 +196,6 @@ h2{
     color:white;
 }
 
-#twitter{
-    width:30%;
-    float:right;
-    margin-right:3%;
 
-}
+
+
