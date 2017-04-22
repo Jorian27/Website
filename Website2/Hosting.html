@@ -30,20 +30,20 @@
         <h2>Hosting Pakket Brons</h2>
         <img src="Images/hosting.png" width="100%"/>
         <p>Pakket Brons: 10 GB HDD, 512 MB RAM, 1 Core, 100 GB dataverkeer per maand (5,95 euro per maand)</p>
-        <select id="keuzes" onchange="price()">
+        <select id="keuzes1" onchange="price1()">
             <option value="1"> 1 maand € 5,95,-</option>
             <option value="2"> 1 jaar € 71,40,-</option>
             <option value="3"> 5 jaar € 357,-</option>
         </select>
-        
-        <div id="prijs">
-        
+        <h5>prijs:</h5>
+        <div id="prijs1">
+        1 maand € 5,95,-
         </div>
       <script>
-          function price();{
-            var x = document.getElementById("keuzes");
-              var y = x.selectedIndex;
-              document.getElementById("prijs").innerHTML = x.options[i].text;
+          function price1(){
+            var x = document.getElementById("keuzes1");
+              var i = x.selectedIndex;
+              document.getElementById("prijs1").innerHTML = x.options[i].text;
           }
         </script>
         <button>Bestel</button>
@@ -54,20 +54,20 @@
         <h2>Hosting Pakket silver</h2>
          <img src="Images/hosting2.png" width="65%"/>
         <p>Pakket Silver: 20 GB HDD, 1048 MB RAM, 2 Cores, 200 GB dataverkeer per maand (7,95 euro per maand)</p>
-                <select id="keuzes" onchange="price()">
+                <select id="keuzes2" onchange="price2()">
             <option value="1"> 1 maand € 7,95,-</option>
             <option value="2"> 1 jaar € 95,40,-</option>
             <option value="3"> 5 jaar € 477,-</option>
         </select>
-        
-        <div id="prijs">
-        
+        <h5>prijs:</h5> 
+        <div id="prijs2">
+       1 maand € 7,95,-
         </div>
       <script>
-          function price();{
-            var x = document.getElementById("keuzes");
-              var y = x.selectedIndex;
-              document.getElementById("prijs").innerHTML = x.options[i].text;
+          function price2(){
+            var x = document.getElementById("keuzes2");
+              var i = x.selectedIndex;
+              document.getElementById("prijs2").innerHTML = x.options[i].text;
           }
         </script>
         <button>Bestel</button>
@@ -77,20 +77,20 @@
         <h2>Hosting Pakket Goud</h2>
         <img src="Images/hosting3.png" width="80%"/>
         <p>Pakket Goud: 50 GB HDD3, 2048 MB RAM, 4 Cores, onbeperkt dataverkeer per maand (10,95 euro per maand)</p>
-                <select id="keuzes" onchange="price()">
+                <select id="keuzes3" onchange="price()">
             <option value="1"> 1 maand € 10,95,-</option>
             <option value="2"> 1 jaar € 131,40,-</option>
             <option value="3"> 5 jaar € 657,-</option>
         </select>
-        
-        <div id="prijs">
-        
+        <h5>prijs:</h5>
+        <div id="prijs3">
+        1 maand € 10,95,-
         </div>
       <script>
-          function price();{
-            var x = document.getElementById("keuzes");
-              var y = x.selectedIndex;
-              document.getElementById("prijs").innerHTML = x.options[i].text;
+          function price(){
+            var x = document.getElementById("keuzes3");
+              var i = x.selectedIndex;
+              document.getElementById("prijs3").innerHTML = x.options[i].text;
           }
         </script>
         <button>Bestel</button>

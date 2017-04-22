@@ -88,36 +88,39 @@ li a:hover {
 }
 
 .artikel1{
-    background:#F6EB32;
+    background:#F6C500;
     width:25%;
-    height:350px;
+    height:500px;
     text-align: center;
     margin-top:2%;
     float:left;
     margin-left:-3%;
- 
+    color:white;
+   
 }
 
 .artikel2{
     background:#FF6B02;
     width:25%;
-    height:350px;
+    height:500px;
     text-align: center;
     margin-top:2%;
     margin-left:2%;
     float:left;
+   color:white;
    
 }
 
 .artikel3{
     background:#58F620;
     width:25%;
-    height:350px;
+    height:500px;
     text-align: center;
     margin-top:2%;
     margin-left:2%;
     float:left;
-  
+  color:white;
+   
     
     }
 
@@ -131,6 +134,7 @@ color:white;
 width:20%;
 height:10%;
 cursor:pointer;
+margin-top:5%;
     
 }
 
@@ -146,7 +150,7 @@ button:hover{
 	height:10%;
     padding-top:5px;
     padding-bottom:5px;
-    margin-top:30%;
+    margin-top:40%;
     color:white;
 }
 
